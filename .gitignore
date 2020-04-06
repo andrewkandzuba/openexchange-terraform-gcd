@@ -13,3 +13,13 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Terraform
+.terraform/
+.terraform.*
+*.tfstate
+*.tfstate.backup
+.cred
+
+# Idea
+.idea
