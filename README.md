@@ -1,2 +1,5 @@
 # openexchange-terraform-gcd
-How to manage Kubernetis cluster lifecycle in Google Cloud using Terraform
+
+Deploy Kunernetis cluster into different Public Clouds.
+
+(Optional) Deploy kclusterlet operators to import a cluster into IBM Clout Pak for Multicloud Management control pane. 

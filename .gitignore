@@ -23,3 +23,6 @@
 
 # Idea
 .idea
+terraform.json
+
+.DS_Store

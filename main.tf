@@ -21,8 +21,10 @@ variable "node_count" {
   default = 3
 }
 
+variable "credentials_file" {}
+
 provider "google" {
-  credentials = file(".cred/terraform.json")
+  credentials = file(var.credentials_file)
   project = var.project
   zone = var.zone
 }
